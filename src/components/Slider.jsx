@@ -15,7 +15,7 @@ const Slider = () => {
   useEffect(() => {
     Toastify({
       text: "Hey! Welcome to Ramdhanu Decoration",
-      duration: 3000,
+      duration: 2000,
       gravity: "top", // Display position (top, bottom)
       position: "right", // Left, center, right
       backgroundColor: "#E60076", // Pinkish shade matching your theme
