@@ -11,15 +11,15 @@ const slides = [
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  //Toastified yahoo!
   useEffect(() => {
     Toastify({
       text: "Hey! Welcome to Ramdhanu Decoration",
       duration: 2000,
-      gravity: "top", // Display position (top, bottom)
-      position: "right", // Left, center, right
-      backgroundColor: "#E60076", // Pinkish shade matching your theme
-      stopOnFocus: true, // Prevents dismissing when hovered
+      gravity: "top", 
+      position: "right", 
+      backgroundColor: "#E60076", 
+      stopOnFocus: true, 
     }).showToast();
 
     const interval = setInterval(() => {
