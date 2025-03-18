@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Toastify from 'toastify-js'
+import "toastify-js/src/toastify.css";
 
 const slides = [
   { url: 'hero1.jpg', text: 'Elegant Wedding Decorations' },
@@ -11,6 +13,15 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
+    Toastify({
+      text: "Hey! Welcome to Ramdhanu Decoration",
+      duration: 3000,
+      gravity: "top", // Display position (top, bottom)
+      position: "right", // Left, center, right
+      backgroundColor: "#E60076", // Pinkish shade matching your theme
+      stopOnFocus: true, // Prevents dismissing when hovered
+    }).showToast();
+
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
     }, 3000);
