@@ -3,10 +3,10 @@ import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css";
 
 const slides = [
-  { url: 'hero1.jpg', text: 'Elegant Wedding Decorations' },
-  { url: 'hero2.jpg', text: 'Creative Birthday Setups' },
-  { url: 'hero3.jpg', text: 'Professional Corporate Events' },
-  { url: 'hero4.jpg', text: 'Professional Corporate Events' },
+  { url: 'hero5.jpg', text: 'Elegant Wedding Decorations' },
+  { url: 'hero6.jpg', text: 'Creative Birthday Setups' },
+  { url: 'hero7.jpg', text: 'Professional Corporate Events' },
+  { url: 'hero8.jpg', text: 'Professional Corporate Events' },
 ];
 
 const Slider = () => {
@@ -35,7 +35,7 @@ const Slider = () => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
       >
         <div className="absolute inset-0  bg-opacity-40 flex items-center justify-center">
-          <h2 className="text-black text-3xl md:text-5xl font-bold">{slides[currentIndex].text}</h2>
+          <h2 className="text-pink-500 text-3xl md:text-5xl font-bold">{slides[currentIndex].text}</h2>
         </div>
       </div>
     </div>
