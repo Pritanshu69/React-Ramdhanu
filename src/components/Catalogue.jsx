@@ -11,7 +11,7 @@ const Catalogue = () => {
       </p>
 
       <a
-        href="/catalogue.pdf"
+        href="/Ramdhanu_catalogue.pdf"
         download
         className="inline-block bg-pink-500 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-pink-600 transition duration-300"
       >

@@ -15,16 +15,16 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row justify-center gap-12 mb-12">
           <div>
             <h3 className="text-xl font-semibold mb-2">📞 Call Us</h3>
-            <p className="text-gray-700">+91 98765 43210</p>
+            <p className="text-gray-700">+91 9836052374</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-2">📧 Email</h3>
-            <p className="text-gray-700">ramdhanudecor@gmail.com</p>
+            <p className="text-gray-700">ramdhanudecoration@gmail.com</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-2">💬 WhatsApp</h3>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919836052374"
               target="_blank"
               rel="noopener noreferrer"
               className="text-pink-600 font-medium underline"
@@ -36,7 +36,7 @@ const Contact = () => {
 
         {/* Message Form */}
         <form
-          action="https://formsubmit.co/your-email@gmail.com"
+          action="https://formsubmit.co/random.com"
           method="POST"
           className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg"
         >
