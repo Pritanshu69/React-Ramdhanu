@@ -33,8 +33,6 @@ const Gallery = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-pink-600 mb-10">
           Our Gallery
         </h2>
-
-        {/* Category Buttons */}
         <div className="flex justify-center gap-4 flex-wrap mb-10">
           {Object.keys(galleryData).map((category) => (
             <button
@@ -50,11 +48,9 @@ const Gallery = () => {
             </button>
           ))}
         </div>
-
-        {/* Dynamic, Animated Image Cards */}
         <motion.div
           layout
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 hover:shadow-xl"
         >
           <AnimatePresence mode="wait">
             {galleryData[selectedCategory].map((image, index) => (
