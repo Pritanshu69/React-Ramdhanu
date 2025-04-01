@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
@@ -8,10 +8,17 @@ const About = () => {
           About Ramdhanu Decoration
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-8">
-          Ramdhanu Decoration is a one-stop solution for all your event decoration needs. We specialize in creating stunning decorations for weddings, birthdays, corporate events, and more. Our team of creative experts ensures that your event is nothing short of magical and memorable.
+          Ramdhanu Decoration is a one-stop solution for all your event
+          decoration needs. We specialize in creating stunning decorations for
+          weddings, birthdays, corporate events, and more. Our team of creative
+          experts ensures that your event is nothing short of magical and
+          memorable.
         </p>
         <p className="text-gray-700 text-lg leading-relaxed">
-          From elegant floral arrangements to vibrant theme-based decorations, we bring your vision to life with a splash of colors and creativity. Let us make your special day even more special with our personalized decoration services.
+          From elegant floral arrangements to vibrant theme-based decorations,
+          we bring your vision to life with a splash of colors and creativity.
+          Let us make your special day even more special with our personalized
+          decoration services.
         </p>
       </div>
     </section>
